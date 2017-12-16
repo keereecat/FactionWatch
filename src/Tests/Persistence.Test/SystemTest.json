@@ -1,0 +1,100 @@
+﻿{
+  "header": {
+    "softwareVersion": "8.4.2.0",
+    "gatewayTimestamp": "2017-12-10T06:40:44.021334Z",
+    "softwareName": "EDDiscovery",
+    "uploaderID": "K1ngFloyd"
+  },
+  "$schemaRef": "https://eddn.edcd.io/schemas/journal/1",
+  "message": {
+    "StarSystem": "HIP 18527",
+    "SystemFaction": "HIP 18527 Silver Energy PLC",
+    "timestamp": "2017-12-10T06:40:42Z",
+    "SystemSecurity": "$SYSTEM_SECURITY_medium;",
+    "SystemAllegiance": "Empire",
+    "SystemEconomy": "$economy_HighTech;",
+    "StarPos": [ 46.719, -87.688, -68.813 ],
+    "Factions": [
+      {
+        "Name": "HIP 18527 Silver Energy PLC",
+        "Government": "Corporate",
+        "RecoveringStates": [
+          {
+            "Trend": 0,
+            "State": "CivilWar"
+          }
+        ],
+        "Influence": 0.265265,
+        "Allegiance": "Empire",
+        "FactionState": "None"
+      },
+      {
+        "Name": "Social HIP 20342 Liberals",
+        "Government": "Democracy",
+        "RecoveringStates": [
+          {
+            "Trend": 0,
+            "State": "Retreat"
+          }
+        ],
+        "Influence": 0.114114,
+        "Allegiance": "Federation",
+        "PendingStates": [
+          {
+            "Trend": 1,
+            "State": "Boom"
+          }
+        ],
+        "FactionState": "None"
+      },
+      {
+        "Allegiance": "PilotsFederation",
+        "FactionState": "None",
+        "Influence": 0.0,
+        "Name": "Pilots Federation Local Branch",
+        "Government": "Democracy"
+      },
+      {
+        "Allegiance": "Empire",
+        "FactionState": "Boom",
+        "Influence": 0.311311,
+        "Name": "Ambirikar Imperial Society",
+        "Government": "Patronage"
+      },
+      {
+        "Name": "Allied HIP 18527 Law Party",
+        "Government": "Dictatorship",
+        "RecoveringStates": [
+          {
+            "Trend": 0,
+            "State": "Outbreak"
+          },
+          {
+            "Trend": 0,
+            "State": "CivilWar"
+          }
+        ],
+        "Influence": 0.195195,
+        "Allegiance": "Independent",
+        "FactionState": "None"
+      },
+      {
+        "Allegiance": "Independent",
+        "FactionState": "Outbreak",
+        "Influence": 0.059059,
+        "Name": "HIP 18527 Jet Society",
+        "Government": "Anarchy"
+      },
+      {
+        "Allegiance": "Independent",
+        "FactionState": "None",
+        "Influence": 0.055055,
+        "Name": "HIP 18527 Liberty Party",
+        "Government": "Dictatorship"
+      }
+    ],
+    "event": "FSDJump",
+    "SystemGovernment": "$government_Corporate;",
+    "Population": 7198773
+  }
+}

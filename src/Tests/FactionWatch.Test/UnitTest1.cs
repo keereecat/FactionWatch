@@ -10,9 +10,6 @@ namespace Tests
         }
 
         [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
+        public void Test1() => Assert.Pass();
     }
 }
