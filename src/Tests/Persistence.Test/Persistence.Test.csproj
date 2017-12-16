@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Repository\Persistence.csproj" />
+    <ProjectReference Include="..\..\Persistence\Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>

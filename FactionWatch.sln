@@ -4,7 +4,7 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSource", "src\DataSource\DataSource.csproj", "{94615ADE-C624-4337-AC35-CA3B23654D47}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\Repository\Persistence.csproj", "{2C2C8314-BD85-44C7-9118-A146FFC5BE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\Persistence\Persistence.csproj", "{2C2C8314-BD85-44C7-9118-A146FFC5BE42}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactionWatch", "src\FactionWatch\FactionWatch.csproj", "{6CFB6EA8-9329-415D-B4B8-C08EF228B0F8}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactionWatch.Test", "src\Te
 		{6CFB6EA8-9329-415D-B4B8-C08EF228B0F8} = {6CFB6EA8-9329-415D-B4B8-C08EF228B0F8}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Test", "src\Tests\Repository.Test\Persistence.Test.csproj", "{2DA2BD9F-BD2E-4B8A-A3C3-E0D9160B728A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Test", "src\Tests\Persistence.Test\Persistence.Test.csproj", "{2DA2BD9F-BD2E-4B8A-A3C3-E0D9160B728A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2C2C8314-BD85-44C7-9118-A146FFC5BE42} = {2C2C8314-BD85-44C7-9118-A146FFC5BE42}
 	EndProjectSection
